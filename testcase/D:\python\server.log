@@ -1,0 +1,40 @@
+INFO:root:等待数据连接... ...
+ERROR:root:exception
+Traceback (most recent call last):
+  File "/Users/supor/PycharmProjects/fenqiman/testcase/test_log2.py", line 21, in <module>
+    conn, addr = s.accept() ##返回的conn是一个socket对象
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
+INFO:root:等待数据连接... ...
+ERROR:root:exception
+Traceback (most recent call last):
+  File "/Users/supor/PycharmProjects/fenqiman/testcase/test_log2.py", line 21, in <module>
+    conn, addr = s.accept() ##返回的conn是一个socket对象
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
+INFO:root:等待数据连接... ...
+ERROR:root:exception
+Traceback (most recent call last):
+  File "/Users/supor/PycharmProjects/fenqiman/testcase/test_log2.py", line 21, in <module>
+    conn, addr = s.accept() ##返回的conn是一个socket对象
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
+INFO:root:等待数据连接... ...
+ERROR:root:exception
+Traceback (most recent call last):
+  File "/Users/supor/PycharmProjects/fenqiman/testcase/test_log2.py", line 21, in <module>
+    conn, addr = s.accept() ##返回的conn是一个socket对象
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
+INFO:root:等待数据连接... ...
+ERROR:root:exception
+Traceback (most recent call last):
+  File "/Users/supor/PycharmProjects/fenqiman/testcase/test_log2.py", line 21, in <module>
+    #     conn, addr = s.accept() ##返回的conn是一个socket对象
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 206, in accept
+    sock, addr = self._sock.accept()
+KeyboardInterrupt
