@@ -16,6 +16,8 @@ class BuyGoods(Config):
     def test_full_pay(self):
         self.login()
         driver = self.driver
+        # driver.add_cookie({'name': 'username', 'value': '13717648820'})
+        # driver.add_cookie({'name': 'userpwd', 'value': '111111'})
         driver.get(self.base_url+'/')
         sleep(Config.STIME+3)
 

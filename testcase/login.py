@@ -33,6 +33,9 @@ class LoginTest(Config):
                 if current_url == self.base_url+'/tmpl/member/member.html':
                     print 'login seccessed'
                     sleep(Config.STIME)
+                    # s = driver.get_cookies()
+                    print s
+                    sleep(Config.STIME+10)
                 else:
                     screen(driver, 'login_err')
                     sleep(Config.STIME)

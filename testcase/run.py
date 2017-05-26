@@ -25,3 +25,8 @@ if __name__ == "__main__":
     # 运行测试用例
     unittest.TextTestRunner(verbosity=2).run(suite)
 
+    # suit = unittest.TestSuite()
+    # suit.addTest(unittest.makeSuite(LoginTest))
+    # unittest.TextTestRunner(verbosity=2).run(suit)
+
+
